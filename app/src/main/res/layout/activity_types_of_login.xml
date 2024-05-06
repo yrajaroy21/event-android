@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6FA0BC"
+    android:orientation="vertical"
+    tools:context=".types_of_login">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="50dp"
+        android:padding="30dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        app:srcCompat="@drawable/loooggoogog" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/admin"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#6FA0BC"
+            android:text="Login as Admin"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/organizer"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="#6FA0BC"
+            android:text="Login as Organizer"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp" />
+
+        <Button
+            android:id="@+id/user"
+            android:layout_width="280dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:backgroundTint="#6FA0BC"
+            android:text="Login as User"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

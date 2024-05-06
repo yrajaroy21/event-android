@@ -1,0 +1,35 @@
+<resources>
+    <string-array name="status_array">
+        <item>Available</item>
+        <item>Not Available</item>
+    </string-array>
+    <string-array name="status_event">
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+
+    <string-array name="status_organizer">
+        <item>Reset</item>
+        <item>Active</item>
+        <item>Blocked</item>
+    </string-array>
+    <string-array name="event_category">
+        <item>Symposium</item>
+        <item>One Day Seminar</item>
+        <item>Hackathon</item>
+        <item>One Day Workshop</item>
+        <item>Others</item>
+
+    </string-array>
+    <string-array name="event_status">
+        <item>On Progress</item>
+        <item>Approved</item>
+        <item>Denied</item>
+
+    </string-array>
+    <string-array name="event_action">
+        <item>Open</item>
+        <item>Completed</item>
+
+    </string-array>
+</resources>
